@@ -30,7 +30,7 @@ export const HeroSection = (): JSX.Element => {
                   alt="Logo part"
                   src="/group-3.png"
                 />
-                <img
+                <img 
                   className="absolute w-[25px] h-[29px] top-9 left-3"
                   alt="Logo part"
                   src="/group-4.png"
@@ -71,7 +71,7 @@ export const HeroSection = (): JSX.Element => {
             <img
               className="w-[180px] md:w-[231px] h-auto mx-auto lg:mx-0"
               alt="Group"
-              src="/group-857.png"
+              src="/group-857.png "
             />
           </div>
 
