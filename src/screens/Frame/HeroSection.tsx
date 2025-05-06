@@ -71,7 +71,7 @@ export const HeroSection = (): JSX.Element => {
             <img
               className="w-[180px] md:w-[231px] h-auto mx-auto lg:mx-0"
               alt="Group"
-              src="/group-857.png "
+              src="/group-857.png"
             />
           </div>
 
