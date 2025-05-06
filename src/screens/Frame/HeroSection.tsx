@@ -88,7 +88,7 @@ export const HeroSection = (): JSX.Element => {
             </h2>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-[26px] w-full sm:w-auto">
-              <a href="/path/to/file.pdf" download className="w-full">
+              <a href="/files/templates/finance.pdf" download className="w-full">
 
                 <Button
                   className="flex items-center justify-center gap-3 px-[26px] py-4 bg-black rounded-[32px] h-auto w-full sm:w-[139px]"
