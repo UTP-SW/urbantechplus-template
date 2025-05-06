@@ -1,0 +1,263 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --button-large-font-family: "Roboto Mono", Helvetica;
+  --button-large-font-size: 16px;
+  --button-large-font-style: normal;
+  --button-large-font-weight: 400;
+  --button-large-letter-spacing: 0px;
+  --button-large-line-height: 12px;
+  --h4-font-family: "Instrument Sans", Helvetica;
+  --h4-font-size: 28px;
+  --h4-font-style: normal;
+  --h4-font-weight: 400;
+  --h4-letter-spacing: 0px;
+  --h4-line-height: 120.00000762939453%;
+  --neutralblack: rgba(0, 0, 0, 1);
+  --neutralconcrete: rgba(241, 241, 241, 1);
+  --neutralwhite: rgba(255, 255, 255, 1);
+  --paragraph-base-font-family: "Instrument Sans", Helvetica;
+  --paragraph-base-font-size: 16px;
+  --paragraph-base-font-style: normal;
+  --paragraph-base-font-weight: 400;
+  --paragraph-base-letter-spacing: 0px;
+  --paragraph-base-line-height: 150%;
+  --tech-sky-blue: rgba(123, 156, 250, 1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --button-large-font-family: "Roboto Mono", Helvetica;
+  --button-large-font-size: 16px;
+  --button-large-font-style: normal;
+  --button-large-font-weight: 400;
+  --button-large-letter-spacing: 0px;
+  --button-large-line-height: 12px;
+  --button-small-font-family: "Roboto Mono", Helvetica;
+  --button-small-font-size: 12px;
+  --button-small-font-style: normal;
+  --button-small-font-weight: 400;
+  --button-small-letter-spacing: 0px;
+  --button-small-line-height: 12px;
+  --dark-secondary: rgba(90, 90, 90, 1);
+  --darksecondary: rgba(90, 90, 90, 1);
+  --fontawesome-light-small-font-family: "Font Awesome 5 Pro", Helvetica;
+  --fontawesome-light-small-font-size: 14px;
+  --fontawesome-light-small-font-style: normal;
+  --fontawesome-light-small-font-weight: 300;
+  --fontawesome-light-small-letter-spacing: 0px;
+  --fontawesome-light-small-line-height: normal;
+  --h-2-font-family: "Instrument Sans", Helvetica;
+  --h-2-font-size: clamp(32px, 4vw, 48px);
+  --h-2-font-style: normal;
+  --h-2-font-weight: 400;
+  --h-2-letter-spacing: 0px;
+  --h-2-line-height: 120.00000762939453%;
+  --input-label-font-family: "Satoshi", Helvetica;
+  --input-label-font-size: 12px;
+  --input-label-font-style: normal;
+  --input-label-font-weight: 500;
+  --input-label-letter-spacing: 0px;
+  --input-label-line-height: normal;
+  --neutral-60: rgba(167, 165, 154, 1);
+  --neutralblack: rgba(0, 0, 0, 1);
+  --neutralconcrete: rgba(241, 241, 241, 1);
+  --neutralsteel: rgba(148, 148, 153, 1);
+  --neutralwhite: rgba(255, 255, 255, 1);
+  --paragraph-base-font-family: "Instrument Sans", Helvetica;
+  --paragraph-base-font-size: clamp(14px, 3vw, 16px);
+  --paragraph-base-font-style: normal;
+  --paragraph-base-font-weight: 400;
+  --paragraph-base-letter-spacing: 0px;
+  --paragraph-base-line-height: 150%;
+  --paragraph-body-small-font-family: "TT Norms Pro Variable", Helvetica;
+  --paragraph-body-small-font-size: 13px;
+  --paragraph-body-small-font-style: normal;
+  --paragraph-body-small-font-weight: 400;
+  --paragraph-body-small-letter-spacing: 0px;
+  --paragraph-body-small-line-height: 140%;
+  --paragraph-small-font-family: "Instrument Sans", Helvetica;
+  --paragraph-small-font-size: clamp(12px, 2.5vw, 14px);
+  --paragraph-small-font-style: normal;
+  --paragraph-small-font-weight: 400;
+  --paragraph-small-letter-spacing: 0px;
+  --paragraph-small-line-height: 120.00000762939453%;
+  --tech-sky-blue: rgba(123, 156, 250, 1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+    --ring: 215 20.2% 65.1%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --ring: 216 34% 17%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  input::placeholder {
+    color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+  }
+
+  @media (max-width: 640px) {
+    input::placeholder {
+      font-size: 14px;
+    }
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
