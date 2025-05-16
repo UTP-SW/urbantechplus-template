@@ -1,5 +1,9 @@
 {
-  "rewrites": [
-    { "source": "/", "destination": "/webinar/index.html" }
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/webinar/index.html",
+      "permanent": true
+    }
   ]
 }
